@@ -1,0 +1,13 @@
+.primary{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.secondary{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 12px;
+}
