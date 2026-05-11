@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier . --write"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kapkotirashmi96/photo-sharing-app.git"
@@ -42,6 +43,7 @@
     "eslint": "^9.39.4",
     "eslint-config-next": "^16.2.6",
     "postcss": "^8.5.14",
+    "prettier": "^3.8.3",
     "tailwindcss": "^3.4.19",
     "typescript": "^6.0.3"
   }

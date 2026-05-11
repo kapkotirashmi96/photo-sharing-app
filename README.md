@@ -9,20 +9,24 @@ The primary goal of this project is to explore how large-scale frontend applicat
 # Tech Stack
 
 ## Frontend
+
 - Next.js (App Router)
 - React
 - TypeScript
 - Tailwind CSS
 
 ## State Management
+
 - Zustand
 - TanStack Query
 
 ## Forms & Validation
+
 - React Hook Form
 - Zod
 
 ## Networking
+
 - Axios
 
 ---
@@ -53,3 +57,4 @@ src/
 ├── services/
 ├── store/
 └── styles/
+```

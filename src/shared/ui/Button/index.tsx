@@ -10,14 +10,8 @@ const Button = ({
   variant = "primary",
   className = "",
   ...props
-}: ButtonProps &
-  React.ButtonHTMLAttributes<HTMLButtonElement>) => {
-  return (
-    <button
-      {...props}
-      className={cn(styles[variant], className)}
-    />
-  );
+}: ButtonProps & React.ButtonHTMLAttributes<HTMLButtonElement>) => {
+  return <button {...props} className={cn(styles[variant], className)} />;
 };
 
 export default Button;
